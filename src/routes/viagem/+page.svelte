@@ -71,6 +71,8 @@
 	}
 
 	.img-fluida {
+		width: 100%; /* Faz a imagem ter a largura igual à do contêiner */
+		max-width: 100%; /* Garante que a imagem não ultrapasse o tamanho do contêiner */
 		border-radius: 10px;
 	}
 
@@ -97,3 +99,4 @@
 		background-color: #ff85c2;
 	}
 </style>
+
